@@ -1,11 +1,11 @@
 
 var changeColor = function () {
-	var currentClassName = document.getElementbyID('cool').className;
-	
+	var currentClassName = document.getElementById('cool').className;
+
 	if (currentClassName == 'cool') {
-		document.getElementbyID('cool').className = 'cool red';
+		document.getElementById('cool').className = 'cool red';
 	} else {
-		document.getElementbyID('cool').className = 'cool';
+		document.getElementById('cool').className = 'cool';
 	}
 
 }
